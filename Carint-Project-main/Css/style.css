@@ -1,0 +1,318 @@
+:root {
+    --main-color: #0a97b0;
+    --second-color: #04233B;
+    --text-shadow: 1px 1px 2px black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#icon-moon {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.cont {
+    background: var(--second-color);
+    height: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.icon-text {
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon-text i {
+    margin-top: 5px;
+}
+
+.icon-text p {
+    padding-left: 15px;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: var(--text-shadow);
+}
+
+.navbar-nav {
+    margin-top: 15px;
+}
+
+.nav-item {
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.nav-item .nav-link {
+    color: black !important;
+    transition: 0.5s;
+}
+
+.nav-item.nav-link-darkmode {
+    color: white !important;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link.active {
+    color: #0a97b0 !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #0a97b0 !important;
+}
+
+.header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/slider-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item h1 {
+    width: auto;
+    margin-top: 20%;
+    margin-bottom: auto;
+    color: white;
+    font-weight: 700;
+}
+
+.carousel-item p {
+    margin-top: 15px;
+    width: auto;
+    color: white;
+}
+
+.carousel-indicators {
+    margin-bottom: -10%;
+}
+
+button {
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    background: #0a97b0;
+    border: none;
+    transition: .8s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: var(--second-color);
+    color:white;
+    letter-spacing: 2px;
+}
+
+
+/* section services */
+.services-text {
+    margin-top: 40px;
+
+}
+
+.services-text h1 {
+    font-weight: 700;
+    text-shadow: var(--text-shadow);
+}
+
+span {
+    color: #0a97b0;
+}
+
+.img-text {
+    display: flex;
+    background: #F8F8F9;
+    margin-bottom: 35px;
+    border-radius: 15px;
+}
+
+.imges {
+    padding: 10px 0px 10px 5px;
+}
+
+.imges img {
+    display: flex;
+    max-width: 60%;
+    max-height: 100%;
+}
+
+.text {
+    padding: 15px;
+    padding-left: 15xp;
+}
+
+.text h3 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: var(--text-shadow);
+}
+
+/* about-section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-about {
+    margin-right: 20px;
+}
+
+.text-about h1 {
+    font-weight: 700;
+    text-shadow: var(--text-shadow);
+}
+
+.img-about img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-shadow: 20px 10px 15px 10px var(--main-color);
+}
+
+
+
+/*  section track */
+.section-track {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+.section-track .img-bg {
+    overflow: hidden;
+    filter: grayscale(0.5);
+}
+
+
+.text-track {
+    position: absolute;
+    top: 70px;
+
+}
+
+.text-track h1 {
+    font-weight: 700;
+
+}
+
+.text-track input {
+    min-width: 50%;
+    height: 50px;
+    padding-left: 19px;
+    padding-right: 100px;
+}
+
+.text-track button {
+    margin-left: -5px;
+    padding: 13px 30px;
+    border-radius: 0px;
+}
+
+/* section-client */
+
+.section-client {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.text-client h1 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: var(--text-shadow);
+}
+
+.card-body h2 {
+    text-shadow: var(--text-shadow);
+}
+
+/* section-form  */
+.section form {
+    margin-bottom: 150px;
+}
+
+.text-contact h1 {
+    font-weight: 700;
+    text-shadow: var(--text-shadow);
+    margin-bottom: 40px;
+}
+
+.form {
+    margin-bottom: 25px;
+}
+
+.input {
+    padding: 15px;
+}
+
+.maps {
+    overflow: hidden;
+}
+
+/* footer */
+footer {
+    background: var(--second-color);
+    color: white;
+    height: auto;
+}
+
+.text-1,
+.text-2,
+.text-3 {
+    margin-top: 50px;
+
+}
+
+.text-3 {
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.social {
+    font-size: 25px;
+}
+
+.links-footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.icon-text:hover,
+.social i:hover {
+    color: var(--main-color);
+
+}
+
+.links-footer a:hover {
+    color: var(--main-color);
+}
+
+
+
+.aboutme h2{
+    text-align: center;
+    margin-bottom: -1px ;
+    padding-bottom: 25px;
+
+}

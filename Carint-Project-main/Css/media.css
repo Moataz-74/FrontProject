@@ -1,0 +1,301 @@
+/*
+ @media (max-width:2560px) and (min-width:1441px) {}
+
+@media (max-width:1440px) and (min-width:1201px) {}
+
+@media (max-width:1200px) and (min-width:1025px) {}
+
+@media (max-width:1024px) and (min-width:993px) {}
+
+@media (max-width:992px) and (min-width:769px) {}
+
+@media (max-width:768px) and (min-width:577px) {}
+
+@media (max-width:576px) and (min-width:426px) {} */
+
+@media (max-width:450px) and (min-width:375px) {
+
+  .header {
+    height: 150vh;
+  }
+
+  .contact p {
+    display: none;
+  }
+
+  .carousel-inner p {
+    text-align: center;
+  }
+
+  .carousel-inner h1 {
+    text-align: center;
+  }
+
+  .carousel-inner button {
+    margin-left: 25%;
+    margin-right: auto;
+  }
+
+  .services-text {
+    text-align: center;
+
+  }
+
+  .services-text h1 {
+    font-size: 35px;
+  }
+
+  .services-text p {
+    text-align: center;
+  }
+
+  .imges img {
+    display: block;
+  }
+
+  .img-text {
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .img-text .imges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-text .imges img {
+    width: 70px;
+  }
+
+  .about-section h1 {
+    font-size: 35px;
+  }
+
+  .text-about {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .text-about button {
+    margin-bottom: 10%;
+  }
+
+  .img-about {
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  .section-track {
+    width: 40%;
+  }
+
+  .section-track .img-bg {
+    overflow: hidden;
+  }
+  .text-track {
+    text-align: center;
+  }
+  .text-track h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .text-track p {
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .input input {
+    display: block;
+    width: 95%;
+  }
+
+  .text-track button {
+    margin-right: 62%;
+    margin-top: 25px;
+    border-radius: 5px;
+  }
+
+  .text-client {
+    text-align: center;
+  }
+
+  .client {
+    margin-left: 15%;
+  }
+.owl-nav{
+  margin-right: 15%;
+}
+.owl-dots{
+  margin-right: 15%;
+}
+  .text-contact {
+    text-align: center;
+  }
+
+  .maps {
+    overflow: hidden;
+  }
+
+  footer {
+   
+   overflow: hidden; 
+  }
+
+  footer h3 {
+    font-size: 30px;
+  }
+
+  .location-footer {
+    margin-left: 10px;
+  }
+
+  .social i {
+    margin-left: 10px;
+  }
+
+  iframe {
+    overflow: hidden;
+  }
+}
+
+@media (max-width:375px) and (min-width:300px) {
+
+  .header {
+    height: 150vh;
+  }
+
+  .contact p {
+    display: none;
+  }
+
+  .carousel-inner p {
+    text-align: center;
+  }
+
+  .carousel-inner h1 {
+    text-align: center;
+  }
+
+  .carousel-inner button {
+    margin-left: 25%;
+    margin-right: auto;
+  }
+
+  .services-text {
+    text-align: center;
+
+  }
+
+  .services-text h1 {
+    font-size: 35px;
+  }
+
+  .services-text p {
+    text-align: center;
+  }
+
+  .imges img {
+    display: block;
+  }
+
+  .img-text {
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .img-text .imges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-text .imges img {
+    width: 70px;
+  }
+
+  .about-section h1 {
+    font-size: 35px;
+  }
+
+  .text-about {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .text-about button {
+    margin-bottom: 10%;
+  }
+
+  .img-about {
+    width: 90%;
+  }
+
+  .section-track {
+    width: 40%;
+  }
+
+  .section-track .img-bg {
+    overflow: hidden;
+  }
+  .text-track {
+    text-align: center;
+  }
+  .text-track h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .text-track p {
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .input input {
+    display: block;
+    width: 95%;
+  }
+
+  .text-track button {
+    margin-right: 62%;
+    margin-top:10px;
+    border-radius: 5px;
+  }
+
+  .text-client {
+    text-align: center;
+  }
+
+  .client {
+    margin-left: 1%;
+  }
+
+  .text-contact {
+    text-align: center;
+  }
+
+  .maps {
+    overflow: hidden;
+  }
+
+  footer {
+    overflow: hidden;
+  }
+
+  footer h3 {
+    font-size: 30px;
+  }
+
+  .location-footer {
+    margin-left: 10px;
+  }
+
+  .social i {
+    margin-left: 10px;
+  }
+
+  iframe {
+    overflow: hidden;
+  }
+}
